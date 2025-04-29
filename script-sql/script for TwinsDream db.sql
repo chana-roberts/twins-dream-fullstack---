@@ -168,89 +168,8 @@ INSERT [dbo].[Costumers] ([Id], [Name], [PhoneNumber], [Mail], [Birthday]) VALUE
 GO
 INSERT [dbo].[Costumers] ([Id], [Name], [PhoneNumber], [Mail], [Birthday]) VALUES (8, N'fegi', N'025669858', N'fegi@gmail.com', CAST(N'2000-03-06' AS Date))
 GO
-INSERT [dbo].[Costumers] ([Id], [Name], [PhoneNumber], [Mail], [Birthday]) VALUES (10, N'חנה רוברטס', N'025002758', N'chani2758@gmail.com', CAST(N'2000-03-05' AS Date))
-GO
 INSERT [dbo].[Costumers] ([Id], [Name], [PhoneNumber], [Mail], [Birthday]) VALUES (11, N'beni', N'025663265', N'beni@gmail.com', CAST(N'2000-03-15' AS Date))
-GO
-INSERT [dbo].[Costumers] ([Id], [Name], [PhoneNumber], [Mail], [Birthday]) VALUES (12, N'pol', N'0521477748', N'pol@gmail.com', CAST(N'2011-08-06' AS Date))
-GO
-INSERT [dbo].[Costumers] ([Id], [Name], [PhoneNumber], [Mail], [Birthday]) VALUES (13, N'tvth', N'5367524', N'ft@3gmail.vcom', CAST(N'2004-06-01' AS Date))
-GO
-INSERT [dbo].[Costumers] ([Id], [Name], [PhoneNumber], [Mail], [Birthday]) VALUES (14, N'xfegc', N'fcgt', N'cfev', CAST(N'2000-03-02' AS Date))
-GO
-INSERT [dbo].[Costumers] ([Id], [Name], [PhoneNumber], [Mail], [Birthday]) VALUES (15, N'8kh', N'8jih', N'hih5', CAST(N'1990-08-02' AS Date))
-GO
-INSERT [dbo].[Costumers] ([Id], [Name], [PhoneNumber], [Mail], [Birthday]) VALUES (16, N'fku', N'025002758', N'gbdsfdas', CAST(N'2011-02-01' AS Date))
-GO
-INSERT [dbo].[Costumers] ([Id], [Name], [PhoneNumber], [Mail], [Birthday]) VALUES (17, N'yuk', N'kre', N'f,u', CAST(N'1099-06-02' AS Date))
-GO
-INSERT [dbo].[Costumers] ([Id], [Name], [PhoneNumber], [Mail], [Birthday]) VALUES (18, N'fds', N'sfd', N'fds', CAST(N'2001-02-01' AS Date))
-GO
-INSERT [dbo].[Costumers] ([Id], [Name], [PhoneNumber], [Mail], [Birthday]) VALUES (19, N'dwqe', N'fqfr', N'rfd', CAST(N'1999-05-01' AS Date))
-GO
-INSERT [dbo].[Costumers] ([Id], [Name], [PhoneNumber], [Mail], [Birthday]) VALUES (20, N'3rf', N'rf', N'wR', CAST(N'2001-02-01' AS Date))
-GO
-INSERT [dbo].[Costumers] ([Id], [Name], [PhoneNumber], [Mail], [Birthday]) VALUES (21, N'btj y', N'br', N'bh', CAST(N'2001-02-01' AS Date))
-GO
-INSERT [dbo].[Costumers] ([Id], [Name], [PhoneNumber], [Mail], [Birthday]) VALUES (22, N'ghnrj', N'hj', N'ghj', CAST(N'2000-05-01' AS Date))
-GO
-INSERT [dbo].[Costumers] ([Id], [Name], [PhoneNumber], [Mail], [Birthday]) VALUES (23, N'ggdhfgewr', N'feqwe', N'cdefbwrht ', CAST(N'1989-02-01' AS Date))
-GO
-INSERT [dbo].[Costumers] ([Id], [Name], [PhoneNumber], [Mail], [Birthday]) VALUES (24, N'eryj', N'ethwyju4tre', N'etrh26q', CAST(N'5000-02-01' AS Date))
-GO
-INSERT [dbo].[Costumers] ([Id], [Name], [PhoneNumber], [Mail], [Birthday]) VALUES (25, N'afgsfhjn', N'rftghnm', N'drfgvhbn ', CAST(N'2000-02-01' AS Date))
-GO
-INSERT [dbo].[Costumers] ([Id], [Name], [PhoneNumber], [Mail], [Birthday]) VALUES (26, N'ewrgtfhj', N'ertyh', N'wertfhj', CAST(N'1000-02-01' AS Date))
-GO
-INSERT [dbo].[Costumers] ([Id], [Name], [PhoneNumber], [Mail], [Birthday]) VALUES (27, N'sdf', N'wef', N'we', CAST(N'2000-02-01' AS Date))
-GO
-INSERT [dbo].[Costumers] ([Id], [Name], [PhoneNumber], [Mail], [Birthday]) VALUES (28, N'rfetgethr', N'erty', N'ewrty', CAST(N'2000-02-01' AS Date))
-GO
-INSERT [dbo].[Costumers] ([Id], [Name], [PhoneNumber], [Mail], [Birthday]) VALUES (29, N'yukht', N'hgf', N'tyfd', CAST(N'2000-02-01' AS Date))
-GO
-INSERT [dbo].[Costumers] ([Id], [Name], [PhoneNumber], [Mail], [Birthday]) VALUES (30, N'sdfg', N'we', N'werg', CAST(N'2025-02-05' AS Date))
-GO
-INSERT [dbo].[Costumers] ([Id], [Name], [PhoneNumber], [Mail], [Birthday]) VALUES (31, N'sdfgw', N'we', N'werg', CAST(N'2025-02-05' AS Date))
-GO
-INSERT [dbo].[Costumers] ([Id], [Name], [PhoneNumber], [Mail], [Birthday]) VALUES (32, N'qwe', N'werw', N'ee', CAST(N'2025-01-27' AS Date))
-GO
-INSERT [dbo].[Costumers] ([Id], [Name], [PhoneNumber], [Mail], [Birthday]) VALUES (33, N'yuk', N'ghjk', N'ghjhk', CAST(N'2025-02-24' AS Date))
-GO
-INSERT [dbo].[Costumers] ([Id], [Name], [PhoneNumber], [Mail], [Birthday]) VALUES (34, N'ASDFG', N'ASDFGH', N'ASDF', CAST(N'2025-02-19' AS Date))
-GO
-INSERT [dbo].[Costumers] ([Id], [Name], [PhoneNumber], [Mail], [Birthday]) VALUES (35, N'ASDFGasdf', N'ASDFGH', N'ASDF', CAST(N'2025-02-19' AS Date))
-GO
-INSERT [dbo].[Costumers] ([Id], [Name], [PhoneNumber], [Mail], [Birthday]) VALUES (36, N'yui', N'tgyu', N'ui', CAST(N'2025-02-25' AS Date))
-GO
-INSERT [dbo].[Costumers] ([Id], [Name], [PhoneNumber], [Mail], [Birthday]) VALUES (37, N'ASDFG', N'dfgh', N'sdfgh', CAST(N'2025-02-10' AS Date))
-GO
-INSERT [dbo].[Costumers] ([Id], [Name], [PhoneNumber], [Mail], [Birthday]) VALUES (38, N'חנה רוברטסsd', N'025002758', N'sdfg', CAST(N'2025-03-26' AS Date))
-GO
-INSERT [dbo].[Costumers] ([Id], [Name], [PhoneNumber], [Mail], [Birthday]) VALUES (39, N'cd', N'gh', N'vbh', CAST(N'2025-02-25' AS Date))
-GO
-INSERT [dbo].[Costumers] ([Id], [Name], [PhoneNumber], [Mail], [Birthday]) VALUES (40, N'qwerg', N'erg', N'erg', CAST(N'2025-01-15' AS Date))
-GO
-INSERT [dbo].[Costumers] ([Id], [Name], [PhoneNumber], [Mail], [Birthday]) VALUES (41, N'yui', N'yu', N'tyuk', CAST(N'2025-02-18' AS Date))
-GO
-INSERT [dbo].[Costumers] ([Id], [Name], [PhoneNumber], [Mail], [Birthday]) VALUES (42, N'asdf', N'sdfg', N'fgh', CAST(N'2025-02-19' AS Date))
-GO
-INSERT [dbo].[Costumers] ([Id], [Name], [PhoneNumber], [Mail], [Birthday]) VALUES (43, N'cv', N'fg', N'fvb', CAST(N'2025-01-27' AS Date))
-GO
-INSERT [dbo].[Costumers] ([Id], [Name], [PhoneNumber], [Mail], [Birthday]) VALUES (44, N'cverr', N'fg', N'fvb', CAST(N'2025-01-27' AS Date))
-GO
-INSERT [dbo].[Costumers] ([Id], [Name], [PhoneNumber], [Mail], [Birthday]) VALUES (45, N'sdf', N'sdf', N'fd', CAST(N'2025-01-29' AS Date))
-GO
-INSERT [dbo].[Costumers] ([Id], [Name], [PhoneNumber], [Mail], [Birthday]) VALUES (46, N'e3rt2', N'343', N'45', CAST(N'2025-02-13' AS Date))
-GO
-INSERT [dbo].[Costumers] ([Id], [Name], [PhoneNumber], [Mail], [Birthday]) VALUES (47, N'e3rt2wer', N'343', N'45', CAST(N'2025-02-13' AS Date))
-GO
-INSERT [dbo].[Costumers] ([Id], [Name], [PhoneNumber], [Mail], [Birthday]) VALUES (48, N'34567', N'456u', N'456u', CAST(N'2025-02-04' AS Date))
-GO
-INSERT [dbo].[Costumers] ([Id], [Name], [PhoneNumber], [Mail], [Birthday]) VALUES (49, N'ghj', N'fg', N'ghj', CAST(N'2025-02-03' AS Date))
-GO
-INSERT [dbo].[Costumers] ([Id], [Name], [PhoneNumber], [Mail], [Birthday]) VALUES (50, N'asdfg', N'asfg', N'dfghn', CAST(N'2025-02-25' AS Date))
-GO
-INSERT [dbo].[Costumers] ([Id], [Name], [PhoneNumber], [Mail], [Birthday]) VALUES (51, N'asdfgas', N'asfg', N'dfghn', CAST(N'2025-02-25' AS Date))
+
 GO
 SET IDENTITY_INSERT [dbo].[Costumers] OFF
 GO
@@ -291,50 +210,25 @@ GO
 INSERT [dbo].[ShoppingBaskets] ([Id], [CostumerId], [Price], [Date], [Remark]) VALUES (1, 5, 0, CAST(N'2025-02-04' AS Date), NULL)
 GO
 INSERT [dbo].[ShoppingBaskets] ([Id], [CostumerId], [Price], [Date], [Remark]) VALUES (2, 5, 0, CAST(N'2025-02-04' AS Date), NULL)
+
 GO
-INSERT [dbo].[ShoppingBaskets] ([Id], [CostumerId], [Price], [Date], [Remark]) VALUES (3, 28, 2660, CAST(N'2025-02-05' AS Date), NULL)
+INSERT [dbo].[ShoppingBaskets] ([Id], [CostumerId], [Price], [Date], [Remark]) VALUES (7, 1, 3040, CAST(N'2025-02-05' AS Date), NULL)
 GO
-INSERT [dbo].[ShoppingBaskets] ([Id], [CostumerId], [Price], [Date], [Remark]) VALUES (4, 29, 2755, CAST(N'2025-02-05' AS Date), NULL)
+INSERT [dbo].[ShoppingBaskets] ([Id], [CostumerId], [Price], [Date], [Remark]) VALUES (9, 2, 2660, CAST(N'2025-02-05' AS Date), NULL)
 GO
-INSERT [dbo].[ShoppingBaskets] ([Id], [CostumerId], [Price], [Date], [Remark]) VALUES (5, 31, 2755, CAST(N'2025-02-05' AS Date), NULL)
+INSERT [dbo].[ShoppingBaskets] ([Id], [CostumerId], [Price], [Date], [Remark]) VALUES (10, 3, 2755, CAST(N'2025-02-05' AS Date), NULL)
 GO
-INSERT [dbo].[ShoppingBaskets] ([Id], [CostumerId], [Price], [Date], [Remark]) VALUES (6, 31, 2755, CAST(N'2025-02-05' AS Date), NULL)
+INSERT [dbo].[ShoppingBaskets] ([Id], [CostumerId], [Price], [Date], [Remark]) VALUES (11, 4, 220, CAST(N'2025-02-05' AS Date), NULL)
 GO
-INSERT [dbo].[ShoppingBaskets] ([Id], [CostumerId], [Price], [Date], [Remark]) VALUES (7, 32, 3040, CAST(N'2025-02-05' AS Date), NULL)
+INSERT [dbo].[ShoppingBaskets] ([Id], [CostumerId], [Price], [Date], [Remark]) VALUES (12, 5, 5415, CAST(N'2025-02-05' AS Date), NULL)
 GO
-INSERT [dbo].[ShoppingBaskets] ([Id], [CostumerId], [Price], [Date], [Remark]) VALUES (9, 33, 2660, CAST(N'2025-02-05' AS Date), NULL)
+INSERT [dbo].[ShoppingBaskets] ([Id], [CostumerId], [Price], [Date], [Remark]) VALUES (13, 6, 5415, CAST(N'2025-02-05' AS Date), NULL)
 GO
-INSERT [dbo].[ShoppingBaskets] ([Id], [CostumerId], [Price], [Date], [Remark]) VALUES (10, 37, 2755, CAST(N'2025-02-05' AS Date), NULL)
+INSERT [dbo].[ShoppingBaskets] ([Id], [CostumerId], [Price], [Date], [Remark]) VALUES (14, 7, 5415, CAST(N'2025-02-05' AS Date), NULL)
 GO
-INSERT [dbo].[ShoppingBaskets] ([Id], [CostumerId], [Price], [Date], [Remark]) VALUES (11, 38, 220, CAST(N'2025-02-05' AS Date), NULL)
+INSERT [dbo].[ShoppingBaskets] ([Id], [CostumerId], [Price], [Date], [Remark]) VALUES (15, 8, 5415, CAST(N'2025-02-05' AS Date), NULL)
 GO
-INSERT [dbo].[ShoppingBaskets] ([Id], [CostumerId], [Price], [Date], [Remark]) VALUES (12, 39, 5415, CAST(N'2025-02-05' AS Date), NULL)
-GO
-INSERT [dbo].[ShoppingBaskets] ([Id], [CostumerId], [Price], [Date], [Remark]) VALUES (13, 39, 5415, CAST(N'2025-02-05' AS Date), NULL)
-GO
-INSERT [dbo].[ShoppingBaskets] ([Id], [CostumerId], [Price], [Date], [Remark]) VALUES (14, 39, 5415, CAST(N'2025-02-05' AS Date), NULL)
-GO
-INSERT [dbo].[ShoppingBaskets] ([Id], [CostumerId], [Price], [Date], [Remark]) VALUES (15, 39, 5415, CAST(N'2025-02-05' AS Date), NULL)
-GO
-INSERT [dbo].[ShoppingBaskets] ([Id], [CostumerId], [Price], [Date], [Remark]) VALUES (16, 40, 2945, CAST(N'2025-02-05' AS Date), NULL)
-GO
-INSERT [dbo].[ShoppingBaskets] ([Id], [CostumerId], [Price], [Date], [Remark]) VALUES (17, 41, 190, CAST(N'2025-02-05' AS Date), NULL)
-GO
-INSERT [dbo].[ShoppingBaskets] ([Id], [CostumerId], [Price], [Date], [Remark]) VALUES (18, 42, 95, CAST(N'2025-02-05' AS Date), NULL)
-GO
-INSERT [dbo].[ShoppingBaskets] ([Id], [CostumerId], [Price], [Date], [Remark]) VALUES (19, 43, 120, CAST(N'2025-02-05' AS Date), NULL)
-GO
-INSERT [dbo].[ShoppingBaskets] ([Id], [CostumerId], [Price], [Date], [Remark]) VALUES (20, 43, 120, CAST(N'2025-02-05' AS Date), NULL)
-GO
-INSERT [dbo].[ShoppingBaskets] ([Id], [CostumerId], [Price], [Date], [Remark]) VALUES (21, 44, 260, CAST(N'2025-02-05' AS Date), NULL)
-GO
-INSERT [dbo].[ShoppingBaskets] ([Id], [CostumerId], [Price], [Date], [Remark]) VALUES (22, 45, 240, CAST(N'2025-02-05' AS Date), NULL)
-GO
-INSERT [dbo].[ShoppingBaskets] ([Id], [CostumerId], [Price], [Date], [Remark]) VALUES (23, 47, 5415, CAST(N'2025-02-05' AS Date), NULL)
-GO
-INSERT [dbo].[ShoppingBaskets] ([Id], [CostumerId], [Price], [Date], [Remark]) VALUES (24, 48, 2660, CAST(N'2025-02-05' AS Date), NULL)
-GO
-INSERT [dbo].[ShoppingBaskets] ([Id], [CostumerId], [Price], [Date], [Remark]) VALUES (25, 51, 2660, CAST(N'2025-02-05' AS Date), NULL)
+INSERT [dbo].[ShoppingBaskets] ([Id], [CostumerId], [Price], [Date], [Remark]) VALUES (16, 11, 2945, CAST(N'2025-02-05' AS Date), NULL)
 GO
 SET IDENTITY_INSERT [dbo].[ShoppingBaskets] OFF
 GO

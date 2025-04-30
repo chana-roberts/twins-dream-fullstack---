@@ -1,0 +1,71 @@
+/* 🎨 עיצוב כללי של הדף */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #f8f9fa, #e3f2fd);
+    margin: 0;
+    padding: 0;
+    direction: rtl; /* תמיכה בעברית */
+    text-align: center;
+}
+
+/* 👋 עיצוב לכותרת "שלום ל{{user1.name}}" */
+h3 {
+      color: #ff4e50; /* כחול נעים */
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+/* 📌 עיצוב הניווט */
+.navbar {
+    background: white !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    list-style: none; /* ✅ מסיר את הנקודות מהרשימה */
+    padding: 0; /* מסיר רווחים פנימיים מיותרים */
+    margin: 0;
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+
+.nav-link {
+    font-size: 18px;
+    font-weight: bold;
+    color: #555 !important;
+    transition: 0.3s;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none; /* מסיר קו תחתון */
+}
+
+.nav-link:hover {
+    background:  #ff4e50;
+    color: white !important;
+    transform: scale(1.05);
+}
+
+/* 🌀 אפקטים ואלמנטים אינטראקטיביים */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.navbar, h3 {
+    animation: fadeIn 0.5s ease-in-out;
+}

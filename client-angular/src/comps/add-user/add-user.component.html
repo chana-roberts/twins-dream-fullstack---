@@ -1,0 +1,55 @@
+
+<div class="container mt-3">
+    <h2>רישום</h2>
+
+    <form (ngSubmit)="save()">
+     <div class="mb-3 mt-3">
+        <label for="name">שם:</label>
+        <input type="text" required="true" class="form-control" [(ngModel)]="user.name" id="name" placeholder="Enter name"
+            name="name"  #name1="ngModel" required pattern="^[\u0590-\u05FF]+$">
+                
+            @if(name1.invalid &&(name1.touched || name1.dirty)){
+            
+              <div class="inValid-feedback">
+                  <p [hidden]="!name1.errors!['required']">שדה חובה</p>
+                  <p [hidden]="!name1.errors!['pattern']">שם לא תקין</p>
+              </div> 
+            }
+</div>
+
+    <div class="mb-3">
+        <label for="Phone number">מספר טלפון:</label>
+        <input type="text" class="form-control" [(ngModel)]="user.phoneNumber" id="PhoneNumber" placeholder="Enter Phone number"
+            name="PhoneNumber"pattern="[0-9]{9}"
+            maxlength="9" #validphyone="ngModel">
+       
+        <div class="inValid-feedback">
+          @if(validphyone.invalid &&(validphyone.touched || validphyone.dirty))
+                    {
+                    <p >פלאפון לא תקין   </p>
+                    }
+</div>
+    </div>
+    <div class="mb-3">
+        <label for="Email address">כתובת דוא"ל:</label>
+        <input type="text"required="true" class="form-control" [(ngModel)]="user.mail" id="Email " placeholder="Enter Email address"
+            name="Email " #Email ="ngModel" pattern="[A-Za-z.0-9]+@(gmail.com|co.il|net)">
+            @if(Email .invalid &&(Email .touched || Email .dirty)){
+           
+             <div class="inValid-feedback">
+                 <p [hidden]="!Email.errors!['required']">שדה חובה</p>
+                 <p [hidden]="!Email.errors!['pattern']">מייל לא תקין</p>
+             </div>
+            }
+    </div>
+    
+
+    <div class="mb-3 mt-3">
+        <label for="birthday">תאריך לידה:</label>
+        <input type="date" class="form-control" [(ngModel)]="user.birthday" id="birthday" placeholder="Enter birthday date"
+            name="birthday">
+    </div>
+    <br>
+        <button type="submit" class="btn btn-primary"><i class="fas fa-paper-plane"></i> שליחה</button>
+   </form>
+</div>

@@ -1,0 +1,50 @@
+
+<div class="select-container">
+  <select [(ngModel)]="gender1" (change)="change()">
+    <option value="" disabled selected >לסינון לפי מין</option>
+    @for( g of this.ps.gender;track g)
+    {
+    <option  [value]="g.id">
+      {{ g.name }}
+    </option>}
+  </select>
+
+
+
+  <select [(ngModel)]="category1" (change)="change()">
+    <option value="" disabled selected >לסינון לפי קטגוריה</option>
+    @for(c of this.ps.category;track c)
+    {
+    <option [value]="c.id">
+      {{ c.name }}
+    </option>}
+  </select>
+</div>
+
+<br>
+<button class="btn btn-primary"(click)="SortName()"><i class="fas fa-sort-alpha-down"></i> למיון לפי מוצר</button>
+<br>
+<button (click)="SortPrice()">  <i class="fas fa-sort-numeric-down"></i> למיון לפי מחיר</button>
+
+@if(allP != null && allP.length > 0) {
+ 
+      @for( product1 of allP;track product1)
+      {
+ <div class="container">
+      
+    <div class="product-card" >
+      <img [src]="product1.image" alt="{{product1.name}}">
+      <div class="card-body">
+        <h3>{{product1.name}}</h3>
+        <p>{{product1.description}}</p>
+       
+        <div class="price">מחיר: {{product1.price |priceFormat }}</div> <!-- שימוש ב-Pipe כאן -->
+            <button  class="btn btn-primary"(click)="add(product1)" [disabled]="!product1.inventory || product1.inventory < 1">הוסף לסל<i class="fas fa-cart-plus"></i> </button>
+   <br>
+            <button  appChangeColor  class="btn btn-primary" (click)="more(product1.id)"> <i class="fas fa-info-circle"></i> לפרטים נוספים</button>
+      </div>
+    </div>
+  </div>
+<br>}
+}
+

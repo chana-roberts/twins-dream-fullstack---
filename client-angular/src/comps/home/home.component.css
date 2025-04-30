@@ -1,0 +1,51 @@
+/* עיצוב כללי לדף הבית */
+.home-container {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(to right, #ffdde1, #ee9ca7);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* כותרת הדף */
+.home-container p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin: 5px 0;
+}
+
+/* שם המותג */
+.home-container p:nth-child(2) {
+    font-size: 48px;
+    font-weight: 700;
+    color: #ff4e50;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'Poppins', sans-serif;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+/* תמונת המותג */
+.home-container img {
+    width: 60%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    animation: zoomIn 1s ease-in-out;
+}
+
+/* אנימציות */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes zoomIn {
+    from { opacity: 0; transform: scale(0.8); }
+    to { opacity: 1; transform: scale(1); }
+}

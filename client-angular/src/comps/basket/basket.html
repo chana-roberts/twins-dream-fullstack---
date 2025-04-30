@@ -1,0 +1,50 @@
+
+
+
+<h1>סל הקניות</h1>
+
+<div class="basket-container">
+  @if(basket.length > 0){
+    @for (item of basket; track $index) {
+      <div class="basket-item">
+        <img [src]="item.Image" alt="{{item.Name}}">
+        <!-- <img [src]="product1.image" alt="{{product1.name}}"> -->
+        <div class="item-details">
+          <h3>{{item.Name}}</h3>
+          <p>{{item.Description}}</p>
+          <div class="price">מחיר: ₪{{item.Price}}</div>
+          <div class="quantity">
+            <button  class="btn " (click)="reduce(item)"[disabled]="item.Amount&&item.Amount < 1"><i class="fas fa-minus"></i></button>
+            <span>{{item.Amount}}</span>
+            <button  class="btn "(click)="add(item)" [disabled]="item.Amount&&item.Inventory&&item.Amount>=item.Inventory"><i class="fas fa-plus"></i></button>
+          </div>
+        </div>
+      </div>
+    }
+    
+    <button class="checkout-btn" (click)="pay(bs.getBasket())" [disabled]="!us.getUser()?.name">
+      <i class="fas fa-credit-card"></i> לתשלום
+    </button>
+    
+    @if(us.getUser().name == "פלוני"){
+      <div class="warning">
+        <h6>שים לב: לא תוכל לסיים את הקניה ללא הרשמה/התחברות</h6>
+      </div>
+    
+    }
+   
+  } 
+  @else {
+    <h3>הסל שלך ריק</h3>
+  }
+</div>
+
+
+
+
+
+
+
+
+
+

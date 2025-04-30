@@ -1,0 +1,26 @@
+
+
+
+<div class="container mt-3">
+    <h2>כניסה</h2>
+   
+    <form (ngSubmit)="save()">
+   
+        <div class="mb-3">
+            <label for="name">שם:</label>
+            <input type="text" required="true" class="form-control" [(ngModel)]="user.name" id="name" placeholder="Enter name"
+                name="name">
+        </div>
+    
+        <div class="mb-3">
+            <label for="Email address">כתובת דוא"ל:</label>
+            <input type="text"required="true" class="form-control" [(ngModel)]="user.mail" id="Email address" placeholder="Enter Email address"
+                name="Email address">
+        </div>
+ 
+  <br>
+
+        <button type="submit" class="btn btn-primary"><i class="fas fa-paper-plane"></i> שליחה</button>
+        
+    </form>
+</div>

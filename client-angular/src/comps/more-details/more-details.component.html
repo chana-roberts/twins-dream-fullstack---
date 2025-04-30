@@ -1,0 +1,18 @@
+
+<div class="container">
+      
+  <div class="product-card" >
+    <img [src]="product1.image" alt="{{product1.name}}">
+    <div class="card-body">
+      <h3>{{product1.name}}</h3>
+      <p>{{product1.description}}</p>
+      <div class="gender">מין: {{product1.gender}}</div>
+      <div class="company">חברה: {{product1.company}}</div>
+      <div class="category">קטגוריה: {{product1.category}}</div>
+      <div class="price">מחיר: ₪{{product1.price}}</div>
+      <button class="btn " (click)="back()"><i class="fas fa-arrow-left"></i> חזרה אחורה</button>
+
+    </div>
+  </div>
+</div>
+<br>
